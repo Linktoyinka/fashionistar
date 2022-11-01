@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 7%;
+}
+
+header p {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+p a {
+    text-decoration: none;
+    color: linear-gradient(192.65deg, #7D0A80 -19.7%, #02C567 99.79%);;
+    
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 50px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.fa {
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+section {
+    padding: 1.5% 7%;
+}
+
+.hero-c {
+    height: 307px;
+    background-color: #02C567;
+    border-radius: 8px;
+    padding: 3%;
+}
+
+.hero-c p {
+    font-size: 24px;
+    line-height: 33px;
+    text-align: left;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+/* .a {
+    position: absolute;
+    text-align: center;
+    margin: 0;
+    height: 27px;
+    left: 50%;
+    top: 248px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    width: 513px;
+
+color: #FFFFFF;
+} */
+
+.hero-c h2 {
+    margin-top: 3%;
+    font-weight: 500;
+    line-height: 44px;
+    text-align: left;
+    font-size: 32px;
+    color: #FFFFFF;
+    width: 50%;
+}
+
+.new h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: center;
+}
+
+.new-arrivals {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 23%;
+    height: ;
+    border-radius: 8px;
+    background-color: #F3F3F3;
+    margin: 1%;
+    box-shadow: -4px 4px 4px rgba(206, 206, 206, 0.25), 4px 4px 4px rgba(206, 206, 206, 0.25);
+    
+}
+
+.product-img {
+    width: 100%;
+}
+
+.product-name, .price {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    padding: 1% 4%;
+
+}
+
+.price {
+    padding-bottom: 4%;
+}
+
+button {
+    margin: 3% 4%;
+    border-radius: 4px;
+    padding: 12px;
+    background-color: #7D0A80;
+    align-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+/* font-weight: 400;
+line-height: 19px;
+text-align: center; */
+
+
+
+}
+
+button i {
+    /* font-size: 266px; */
+}
+
+@media screen and (max-width: 900px) {
+    .card {
+        width: 30%;
+        
+    }
+
+    .new h2 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .product-name, .price {
+        font-size: 16px;
+    
+    }
+    .new h2 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .card {
+        width: 45%;
+        
+    }
+
+    .new h2 {
+        font-size: 20px;
+    }
+}
