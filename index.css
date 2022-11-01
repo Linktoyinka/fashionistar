@@ -82,8 +82,7 @@ section, footer {
 .hero-c {
     background-image: url(images/image\ 1.png);
     background-repeat: no-repeat;
-    background-position: right;
-    /* background-position-y: ;  */
+    background-position: 100% 105%;
 
 }
 
@@ -239,6 +238,11 @@ div li a {
         
     }
 
+    .hero-c {
+        background-position: 100% 100%;
+    
+    }
+
     .hero-c p.a {
         font-size: 16px;
     }
@@ -285,8 +289,21 @@ div li a {
         font-size: 16px;
     
     }
+
+    .hero-c {
+        background-position: 100% 50%;
+    
+    }
+
     .new h2 {
         font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .hero-c {
+        background-position: 100% 102%;
+    
     }
 }
 
@@ -294,6 +311,11 @@ div li a {
     .card {
         width: 45%;
         margin-top: 3%;
+    }
+
+    .hero-c {
+        background-position: 100% %;
+    
     }
 
     .hero-c p.a {
