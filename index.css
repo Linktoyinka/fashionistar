@@ -71,20 +71,29 @@ section, footer {
     color: #FFFFFF;
 }
 
-/* .a {
+.hero-c img {
     position: absolute;
+    height: 290.27px;
+    left: 795px;
+    top: 173px;
+    width: 489px;
+}
+
+.hero-c {
+    background-image: url(images/image\ 1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    /* background-position-y: ;  */
+
+}
+
+.hero-c p.a {
     text-align: center;
-    margin: 0;
-    height: 27px;
-    left: 50%;
-    top: 248px;
     font-weight: 500;
     font-size: 20px;
-    line-height: 27px;
-    width: 513px;
-
-color: #FFFFFF;
-} */
+    width: 100%;
+    margin-top: 14%;
+}
 
 .hero-c h2 {
     margin-top: 3%;
@@ -181,7 +190,6 @@ span {
 
 footer {
     background-color: #B2ADD4;
-    /* padding: 5%; */
 }
 
 .footer {
@@ -230,6 +238,19 @@ div li a {
         width: 30%;
         
     }
+
+    .hero-c p.a {
+        font-size: 16px;
+    }
+
+    .hero-c h2 {
+        font-size: 25px;
+    }
+
+    .hero-c p {
+        font-size: 18px;
+    }
+
     .hero-c {
         height: auto;
     }
@@ -273,6 +294,18 @@ div li a {
     .card {
         width: 45%;
         margin-top: 3%;
+    }
+
+    .hero-c p.a {
+        font-size: 13px;
+    }
+
+    .hero-c h2 {
+        font-size: 20px;
+    }
+
+    .hero-c p {
+        font-size: 15px;
     }
 
     .new h2 {
