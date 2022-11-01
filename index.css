@@ -15,7 +15,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 7%;
+    padding: 15px 7%;
 }
 
 header p {
@@ -275,6 +275,10 @@ div li a {
         flex-wrap: wrap;
     }
 
+    footer {
+        padding-top: 5%;
+    }
+
     .footer-div {
         width: 50%;
     }
@@ -311,6 +315,14 @@ div li a {
     .card {
         width: 45%;
         margin-top: 3%;
+    }
+
+    .paging {
+        font-size: 14px;
+    }
+
+    .see {
+        font-size: 16px;
     }
 
     .hero-c {
