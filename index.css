@@ -8,6 +8,7 @@
 
 body {
     background-color: #FFFFFF;
+    width: 100%;
 }
 
 header {
@@ -46,7 +47,7 @@ li a {
     /* align-items: flex-end; */
 }
 
-.cart img {
+.cart i {
     margin: 0 5px;
     /* width: 10%; */
 }
@@ -219,11 +220,22 @@ div li a {
 
 }
 
+.footer-div img {
+    width: 7%;
+}
+
 
 @media screen and (max-width: 900px) {
     .card {
         width: 30%;
         
+    }
+    .hero-c {
+        height: auto;
+    }
+
+    .hero-c h2 {
+        width: 80%;
     }
 
     .new h2 {
@@ -274,5 +286,9 @@ div li a {
     
     footer img {
         width: 40%;
+    }
+
+    nav, .cart {
+        display: none;
     }
 }
