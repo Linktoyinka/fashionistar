@@ -113,7 +113,7 @@ section, footer {
 
 .new-arrivals {
     display: flex;
-    align-items: flex-start;
+    align-items: stretch;
     justify-content: space-around;
     flex-wrap: wrap;
 }
