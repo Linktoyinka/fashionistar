@@ -348,7 +348,7 @@ div li a {
 
     button {
         font-size: 13px;
-        display: block;
+        visibility: visible;
     }
     
     footer img {
