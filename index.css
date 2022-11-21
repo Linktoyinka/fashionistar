@@ -155,7 +155,7 @@ button {
     border: none;
     font-size: 18px;
     cursor: pointer;
-    display: none;
+    visibility: hidden;
 }
 
 input {
@@ -163,7 +163,7 @@ input {
 }
 
 .card:hover button {
-    display: block;
+    visibility: visible;
 }
 
 .see {
